@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<!--El proyecto ya esta en github-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portafolio Sebastian Rodriguez</title>
+    <link rel="icon" type="image/png" href="Imagenes/icono.jpg"><!--Icono que sale en la pestaña-->
+    <!--<style>
+        header{
+            background: green;
+        }
+    </style>--><!--Estilos con etiqueta style, tiene mas peso que la hoja externa-->
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+<!--    <div class="flexbox">
+        <div class="box">
+
+        </div>
+        <div class="box">
+
+        </div>
+        <div class="box">
+
+        </div>         
+    </div>-->
+    <header class="header" style=""><!--Estilos en linea, todo dentro de las 
+        comillas y separado por punto y coma, mas peso en esta forma que 
+        por etiqueta y hoja externa-->
+        <div class="container">
+            <figure class="logo">
+                <img src="" alt="Logo de mi pagina no disponible por el momento..."><!--Hago la suposición de que no
+                tengo una imagen aun, entonces utilizo el atributo alt
+                para escribir un texto alternativo a la imagen-->
+            </figure>
+            <nav class="menu">
+                <ol>
+                    <li>
+                        <a class="link" href="#portafolio">Portafolio</a><!--# Indica que es un enlace interno o local-->
+                    </li>
+                    <li>
+                        <a class="link" href="#eventos">Experiencia</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#contactos">Trabajemos juntos</a>
+                    </li>
+                </ol>    
+            </nav>    
+        </div>
+    </header>
+    <section class="hero"><!--hero es algo por convención o tradición-->
+        <div class="container">
+            <h1>
+                Hey! Soy <strong>Sebastian Rodriguez</strong><br/> estudiante de <strong>Platzi</strong>.<br/>
+            </h1>
+            <img class="hero-image" src="Imagenes/portada.jpg" width="500" height="300" alt="Imagen de portada">-->
+        </div>
+    </section>    
+    <section class="portfolio" id="portafolio">
+        <div class="container">
+            <h2>Portafolio de proyectos destacados</h2>
+            <article class="project">
+                <div class="project-details">
+                    <h3 class="project-title">Proyecto 1</h3>
+                    <h6 class="project-course">Subtitulo del proyecto 1</h6>
+                    <p class="project-date"><small><strong>Fecha:</strong> 17/08/2019</small></p><!--Para hacer un parrafo pequeño-->    
+                    <p class="project-url"><small><strong>Pudes ver el proyecto en:</strong> URL inactiva</small></p>    
+                    <p class="project-description">Descripción del proyecto de manera breve</p>
+                </div>
+                <figure class="project-imageContainer"><!--Por convención debido a que solamente envuelve a otra etiqueta-->
+                    <img class="project-image" src="Imagenes/proyecto.png" alt="Imagen del proyecto" width="500">
+                </figure>    
+            </article><!-- Contenido que vive por si mismo -->
+            <article class="project">
+                <div class="project-details">
+                    <h3 class="project-title">Proyecto 2</h3>
+                    <h6 class="project-course">Subtitulo del proyecto 2</h6>
+                    <p class="project-date"><small><strong>Fecha:</strong> 27/08/2019</small></p><!--Para hacer un parrafo pequeño-->    
+                    <p class="project-url"><small><strong>Pudes ver el proyecto en:</strong> URL inactiva</small></p>    
+                    <p class="project-description">Descripción del proyecto de manera breve</p>
+                </div>
+                <figure class="project-imageContainer"><!--Por convención debido a que solamente envuelve a otra etiqueta-->
+                    <img class="project-image" src="Imagenes/proyecto.png" alt="Imagen del proyecto" width="500">
+                </figure>    
+            </article><!-- Contenido que vive por si mismo -->
+        </div>
+    </section>
+    <div class="container">      
+        <h2 class="event-list-title">Información sobre estudios, participaciones eventos...</h2>
+    </div>
+    <section class="event-list" id="eventos">
+        <div class="container">
+            <article class="event">
+                <figure class="event-imageContainer">
+                    <img class="event-image" src="Imagenes/evento.jpg" width="500">
+                </figure>
+                <div class="event-details">
+                    <h3 class="event-title">Subtitulo</h3>
+                    <p class="event-description">Descripción de lo sucedido o realizado</p>
+                    <a class="event-url" href="https://www.youtube.com/watch?v=uESeYY--0r0&t=3368s" target="_black">Enlace del evento o info</a>
+                    <!--Con _black abrira el enlace en una nueva pestaña-->
+                </div>
+            </article>
+            <article class="event">
+                <figure class="event-imageContainer">
+                    <img class="event-image" src="Imagenes/evento.jpg" width="500">
+                </figure>
+                <div class="event-details">
+                    <h3 class="event-title">Subtitulo</h3>
+                    <p class="event-description">Descripción de lo sucedido o realizado</p>
+                    <a class="event-url" href="https://www.youtube.com/watch?v=uESeYY--0r0&t=3368s" target="_black">Enlace del evento o info</a>
+                    <!--Con _black abrira el enlace en una nueva pestaña-->
+                </div>
+            </article>
+            <article class="event">
+                <figure class="event-imageContainer">
+                    <img class="event-image" src="Imagenes/evento.jpg" width="500">
+                </figure>
+                <div class="event-details">
+                    <h3 class="event-title">Subtitulo</h3>
+                    <p class="event-description">Descripción de lo sucedido o realizado</p>
+                    <a class="event-url" href="https://www.youtube.com/watch?v=uESeYY--0r0&t=3368s" target="_black">Enlace del evento o info</a>
+                    <!--Con _black abrira el enlace en una nueva pestaña-->
+                </div>
+            </article>
+        </div>                
+    </section>
+    <section class="contact" id="contactos">
+        <div class="container">
+            <form class="form-email" action="">
+                <h3>¿Deseas contactarme?</h3>
+                <input type="text" placeholder="Déjame tu email">
+                <button>Enviar</button>
+            </form>
+            <div class="social">
+                <a href="#" class="social-link twitter"></a>
+                <a href="#" class="social-link facebook"></a>
+                <a href="#" class="social-link github"></a>
+            </div>  
+        </div>
+    </section>
+    <div class="container">
+
+    </div>
+    <footer class="footer">
+       <div class="container">
+            <div>
+                <p>Curso de Desarrollo Web Online 2019 <img src="Imagenes/footer_dos.jpg" width="50" alt="Logo footer secundario"></p>
+            </div>
+            <div>
+                <p>
+                    Mi diseño <\3
+                </p>
+            </div>
+       </div>
+    </footer>    
+</body>
+</html>
