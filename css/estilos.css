@@ -368,4 +368,29 @@ en la parte baja del alto de la caja contenedora*/
     height: inherit;
     flex-wrap: inherit;
 }
+/*Desktop first*/
+
+@media screen and (max-width: 1024px){/*Forma 2 de declarar media query*/
+    body{
+        border: 10px solid green;
+    }
+}
+
+@media screen and (max-width: 768px){/*Forma 2 de declarar media query*/
+    body{
+        border: 10px solid green;
+    }
+}
+
+@media screen and (max-width: 480px){/*Forma 2 de declarar media query*/
+    body{
+        border: 10px solid green;
+    }
+}
+
+@media screen and (max-width: 320px){/*Forma 2 de declarar media query*/
+    body{
+        border: 10px solid green;
+    }
+}
 
