@@ -242,8 +242,8 @@ en la parte baja del alto de la caja contenedora*/
 
 .event{
 
-    margin: 10px;
-    width: 480px; 
+    margin: 1%;
+    width: 48%; 
     flex-shrink: 0;/*Especifica el valor de contracción de los
     elementos de un contenedor*/
     border-radius: 10px;
@@ -448,6 +448,23 @@ en la parte baja del alto de la caja contenedora*/
     .project-course, .project-date, .project-url{
 
         margin: 0.4em 0;
+    }
+    .event{
+
+        width: auto;
+        flex-shrink: initial;/*Resetear el valor 
+        para poder quitarlo*/
+    }
+    .event img{
+
+        width: 100%;
+    }
+    .event-details{
+        /* 1em=16 px*/
+        margin: -2em 0.5em 0.5em;/*Si no coloco el valor
+        de la izquiera, ultimo valor, este tomara el valor de 
+        la derecha por defecto*/
+        padding: 1em;
     }
 }
 
