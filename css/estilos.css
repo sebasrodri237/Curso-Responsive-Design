@@ -134,7 +134,7 @@ figure{
 
 .project-details{
 
-    width: 500px;
+    width: 50%;
     /*margin: 0px auto;/*0px top y 
     bottom y auto lo organiza segun espacio de 
     right y left, auto es muy buena practica*/
@@ -142,7 +142,13 @@ figure{
 
 .project-imageContainer{
 
-    width: 500px;
+    width: 50%;
+}
+
+.project-imageContainer img{/*Utilizado para hacer las imagenes responsive*/
+
+    max-width: 100%;/*La imagen se autoescalara cuando
+    baje el tamaño de la pantalla*/
 }
 
 .header{
@@ -404,10 +410,53 @@ en la parte baja del alto de la caja contenedora*/
 
         text-align: center;
     }
+    .project{
+
+        display: block;
+    }
+    .project-imageContainer{
+
+        width: auto;
+        text-align: center;
+    }
+    .project-details{
+
+        width: auto;
+        font-size: 16px;
+    }
+    .project-title{
+
+        font-size: 1.5em;
+        margin-bottom: 0.3em;
+    }
+    .project-url{
+
+        font-size: 1em;
+    }
+    .project-course{
+
+        font-size: 0.7em;
+    }
+    .project-date{
+
+        font-size: 1em;
+    }
+    .project-description{
+
+        font-size: 0.8em;
+    }
+    .project-course, .project-date, .project-url{
+
+        margin: 0.4em 0;
+    }
 }
 
 @media screen and (max-width: 480px){/*Forma 2 de declarar media query*/
 
+    .project-details{
+
+        font-size: 12px;
+    }
 }
 
 @media screen and (max-width: 320px){/*Forma 2 de declarar media query*/
