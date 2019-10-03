@@ -75,6 +75,7 @@ figure{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 
 }
 
@@ -103,6 +104,7 @@ figure{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     
 }
 
@@ -151,6 +153,7 @@ figure{
     height: 70px;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .header ol{
@@ -222,6 +225,7 @@ en la parte baja del alto de la caja contenedora*/
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .footer img{
@@ -298,6 +302,7 @@ en la parte baja del alto de la caja contenedora*/
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .social{
@@ -360,7 +365,7 @@ en la parte baja del alto de la caja contenedora*/
 
 .container{
 
-    width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
     display: inherit;
     justify-content: inherit;
@@ -372,25 +377,25 @@ en la parte baja del alto de la caja contenedora*/
 
 @media screen and (max-width: 1024px){/*Forma 2 de declarar media query*/
     body{
-        border: 10px solid green;
+        
     }
 }
 
 @media screen and (max-width: 768px){/*Forma 2 de declarar media query*/
     body{
-        border: 10px solid green;
+        
     }
 }
 
 @media screen and (max-width: 480px){/*Forma 2 de declarar media query*/
     body{
-        border: 10px solid green;
+        
     }
 }
 
 @media screen and (max-width: 320px){/*Forma 2 de declarar media query*/
     body{
-        border: 10px solid green;
+        
     }
 }
 
