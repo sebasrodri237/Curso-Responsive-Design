@@ -366,6 +366,8 @@ en la parte baja del alto de la caja contenedora*/
 .container{
 
     max-width: 1000px;
+    flex: 1;/*Tomar todo el ancho posible sin dejar de 
+    utilizar el display flex*/
     margin: 0 auto;
     display: inherit;
     justify-content: inherit;
@@ -376,26 +378,39 @@ en la parte baja del alto de la caja contenedora*/
 /*Desktop first*/
 
 @media screen and (max-width: 1024px){/*Forma 2 de declarar media query*/
-    body{
-        
-    }
+
 }
 
-@media screen and (max-width: 768px){/*Forma 2 de declarar media query*/
-    body{
-        
+@media screen and (max-width: 767px){/*Forma 2 de declarar media query*/
+    
+    .header{
+
+        display: block;
+        height: auto;
+    }
+    .header ol{
+
+        display: block;
+    }
+    .header ol li{
+
+        height: 50px;
+    }
+    .header a{
+
+        justify-content: center;
+    }
+    .header .logo{
+
+        text-align: center;
     }
 }
 
 @media screen and (max-width: 480px){/*Forma 2 de declarar media query*/
-    body{
-        
-    }
+
 }
 
 @media screen and (max-width: 320px){/*Forma 2 de declarar media query*/
-    body{
-        
-    }
+
 }
 
