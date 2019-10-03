@@ -385,6 +385,10 @@ en la parte baja del alto de la caja contenedora*/
 
 @media screen and (max-width: 1024px){/*Forma 2 de declarar media query*/
 
+    .container{
+
+        padding: 0 1em;
+    }
 }
 
 @media screen and (max-width: 767px){/*Forma 2 de declarar media query*/
@@ -473,6 +477,26 @@ en la parte baja del alto de la caja contenedora*/
     .project-details{
 
         font-size: 12px;
+    }
+    .contact{
+
+        height: auto;
+        padding: 1.5em 0;
+        text-align: center;
+        display: block;
+    }
+    .form-email button{
+
+        margin: 1em auto;
+    }
+    .form-email h3{
+        margin-top: 0;
+    }
+    .footer{
+        
+        display: block;
+        text-align: center;
+        border: 1px solid transparent;
     }
 }
 
