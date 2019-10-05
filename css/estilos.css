@@ -389,10 +389,34 @@ en la parte baja del alto de la caja contenedora*/
 
         padding: 0 1em;
     }
+    .hero{
+
+        height: auto;
+        position: relative;
+        overflow: hidden;/*Evita que la imagen se
+        desborde de su contenedor al recortarla*/
+        padding: 2em;
+    }
+    .hero-image{
+
+        position: absolute;
+        z-index: 1;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+    }
+    h1{
+
+        font-size: 2em;
+        z-index: 2;
+    }
 }
 
 @media screen and (max-width: 767px){/*Forma 2 de declarar media query*/
     
+
     .header{
 
         display: block;
@@ -474,6 +498,10 @@ en la parte baja del alto de la caja contenedora*/
 
 @media screen and (max-width: 480px){/*Forma 2 de declarar media query*/
 
+    h1{
+
+        font-size: 1.5em;
+    }
     .project-details{
 
         font-size: 12px;
@@ -502,5 +530,13 @@ en la parte baja del alto de la caja contenedora*/
 
 @media screen and (max-width: 320px){/*Forma 2 de declarar media query*/
 
+    h1{
+
+        font-size: 1.2em;
+    }
+    .hero{
+
+        padding: 2em 1em;
+    }
 }
 
