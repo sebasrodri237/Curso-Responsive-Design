@@ -243,7 +243,7 @@ en la parte baja del alto de la caja contenedora*/
 .event{
 
     margin: 1%;
-    width: 48%; 
+    width: 48%;
     flex-shrink: 0;/*Especifica el valor de contracción de los
     elementos de un contenedor*/
     border-radius: 10px;
@@ -380,6 +380,12 @@ en la parte baja del alto de la caja contenedora*/
     align-items: inherit;
     height: inherit;
     flex-wrap: inherit;
+}
+
+.html-video{
+
+    width: 100%;
+    height: auto;
 }
 /*Desktop first*/
 
