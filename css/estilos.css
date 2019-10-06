@@ -515,10 +515,33 @@ en la parte baja del alto de la caja contenedora*/
     .header a{
 
         justify-content: center;
+        height: 40px;
+        font-size: 2em;
+        text-decoration: underline;
+        margin-bottom: 0.5em;
     }
     .header .logo{
 
         text-align: center;
+    }
+    .menu{
+
+        position: fixed;
+        background: rgba(5,111,255,0.9);
+        z-index: 3;
+        top: 0;
+        left: -100vw;/*Esconder el menu para poder desplegarlo
+        con el menu hamburguesa*/
+        width: 100vw;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 0.3s;
+    }
+    .menu.is-active{
+
+        left:0;
     }
     .project{
 
