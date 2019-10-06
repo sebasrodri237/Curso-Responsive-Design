@@ -441,6 +441,25 @@ en la parte baja del alto de la caja contenedora*/
     padding-top: 56.25%;
     background: blue;
 }
+
+.burger-button{
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;/*Como alto y ancho de 40px el 50% es 20px*/
+    background-color: rgba(0,0,0,0.8);
+    display: none;/*Esta condicion para que el menu hambuerguesa
+    se vea solo en modo responsive design*/
+    line-height: 40px;/*Otra manera de centrar elementos de
+    manera vertical*/
+    text-align: center;/*Aqui centro de manera horizontal
+    el elemento*/
+    position: fixed;
+    z-index: 4;
+    left: 5px;
+    top: 5px;
+    color: white;
+}
 /*Desktop first*/
 
 @media screen and (max-width: 1024px){/*Forma 2 de declarar media query*/
@@ -476,7 +495,10 @@ en la parte baja del alto de la caja contenedora*/
 
 @media screen and (max-width: 767px){/*Forma 2 de declarar media query*/
     
+    .burger-button{
 
+        display: block;
+    }
     .header{
 
         display: block;
