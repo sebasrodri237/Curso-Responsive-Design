@@ -1,3 +1,34 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?deecye');
+    src:  url('../fonts/icomoon.eot?deecye#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?deecye') format('truetype'),
+      url('../fonts/icomoon.woff?deecye') format('woff'),
+      url('../fonts/icomoon.svg?deecye#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-Menu:before {
+    content: "\e9bb";
+  }
+
 /* TODO ESTO ES UNA REGLA EN CSS
 ESTO ES EL SELECTOR header{Esto es la declaración
 Esto es una propiedad    background: Esto es un valor red;
@@ -9,6 +40,7 @@ header{
     estilo mas fuerte o pesado, no se recomienda ya que rompe
     la cascada
 }
+
 */
 /*Se aprendio sobre modelo de caja*/
 body{
