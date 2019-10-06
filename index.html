@@ -172,21 +172,37 @@
     </footer>
     <script>
         
+        const ipad = window.matchMedia('screen and (max-width: 767px)');
+        /*Media query para el javascript para no realizar el evento
+        todo el tiempo*/
         const menu = document.querySelector('.menu');
         const burgerButton = document.querySelector('#burger-menu');
 
-        burgerButton.addEventListener('click', hideShow);
+        ipad.addListener(validation);
+
+        function validation(event){/*Validar que la pantalla 
+        es menor a 767 px*/
+
+            if (event.matches) {
+                
+                burgerButton.addEventListener('click', hideShow);
+            } else {
+                
+                burgerButton.removeEventListener('click', hideShow);
+
+            }
+        }
 
         function hideShow(){
 
             if(menu.classList.contains('is-active')){
 
-                menu.classList.remove('is-active');
+                 menu.classList.remove('is-active');
             } else{
 
-                menu.classList.add('is-active');
+                 menu.classList.add('is-active');
             }
-            
+
         }
 
     </script>    
