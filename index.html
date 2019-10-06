@@ -27,7 +27,7 @@
     en la seccion en este caso 100%-->
 </head>
 <body>
-    <i class="icon-Menu burger-button"></i><!--Utilizada comunmente para colocar iconos aunque
+    <i class="icon-Menu burger-button" id="burger-menu"></i><!--Utilizada comunmente para colocar iconos aunque
     sea para tipo italica o puede utilzarse con span-->
 <!--    <div class="flexbox">
         <div class="box">
@@ -169,6 +169,26 @@
                 </p>
             </div>
        </div>
-    </footer>    
+    </footer>
+    <script>
+        
+        const menu = document.querySelector('.menu');
+        const burgerButton = document.querySelector('#burger-menu');
+
+        burgerButton.addEventListener('click', hideShow);
+
+        function hideShow(){
+
+            if(menu.classList.contains('is-active')){
+
+                menu.classList.remove('is-active');
+            } else{
+
+                menu.classList.add('is-active');
+            }
+            
+        }
+
+    </script>    
 </body>
 </html>
