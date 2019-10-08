@@ -462,8 +462,12 @@ en la parte baja del alto de la caja contenedora*/
 }
 /*Desktop first*/
 
-@media screen and (max-width: 1024px){/*Forma 2 de declarar media query*/
+@media screen and (max-width: 1023px){/*Forma 2 de declarar media query*/
 
+    .event-list-title{
+
+        margin-left: 0;
+    }
     .container{
 
         padding: 0 1em;
@@ -495,6 +499,11 @@ en la parte baja del alto de la caja contenedora*/
 
 @media screen and (max-width: 767px){/*Forma 2 de declarar media query*/
     
+    h2{
+
+        font-size: 1.2em;
+        margin: 0.5em 0;
+    }
     .burger-button{
 
         display: block;
@@ -543,6 +552,10 @@ en la parte baja del alto de la caja contenedora*/
 
         left:0;
     }
+    .portfolio{
+
+        padding: 0;
+    }
     .project{
 
         display: block;
@@ -576,7 +589,7 @@ en la parte baja del alto de la caja contenedora*/
     }
     .project-description{
 
-        font-size: 0.8em;
+        font-size: 1em;
     }
     .project-course, .project-date, .project-url{
 
@@ -609,7 +622,7 @@ en la parte baja del alto de la caja contenedora*/
     }
     .project-details{
 
-        font-size: 12px;
+        font-size: 14px;
     }
     .contact{
 
@@ -630,6 +643,12 @@ en la parte baja del alto de la caja contenedora*/
         display: block;
         text-align: center;
         border: 1px solid transparent;
+    }
+    .social-link{
+
+        width: 40px;
+        height: 40px;
+        background-size: 100%;
     }
 }
 
